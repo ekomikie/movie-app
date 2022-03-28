@@ -1,0 +1,16 @@
+.header-container {
+  padding-top: 2.5rem;
+  padding-left: 4rem;
+  width: 100%;
+  background-color: #292929;
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+  }
+}
